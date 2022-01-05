@@ -12,6 +12,7 @@
 }
 
 body {
+    
     margin: 1rem;
 }
 
@@ -31,11 +32,11 @@ body {
     align-items: center;
     overflow-x: auto;
     padding: 8px;
-    height: 70vh;
+    height: 60vh;
     }
 
   .item{
-    height: 60vh;
+    height: 50vh;
   }
 
 footer{
@@ -45,6 +46,6 @@ footer{
     align-items: center;
     background-color: rgb(207, 204, 204);
     font-family:'Times New Roman', Times, serif;
-    height: 15vh;
+    height: 10vh;
     
 }
