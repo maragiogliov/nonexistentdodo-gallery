@@ -16,6 +16,8 @@ body {
     margin: 1rem;
 }
 
+
+
 .header-container{
     display: flex;
     flex-direction: row;
@@ -33,14 +35,30 @@ body {
     overflow-x: auto;
     padding: 8px;
     height: 60vh;
-    background-color:white;
+    background:image()
     }
+
+    .animation-entrance {
+        width: 100px;
+        height: 100px;
+        background-color: none;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        border-radius: 50px;
+      }
+      
+      @keyframes example {
+        0%   {background-color:none; left:100px; top:0px;}
+        25%  {background-color:rgba(0, 255, 242, 0.39); left:200px; top:50px;}
+        50%  {background-color:rgb(37, 34, 39); left:400px; top:200px;}
+        75%  {background-color:rgba(249, 255, 171, 0.425); left:-50px; top:200px;}
+        100% {background-color:none; left:0px; top:0px;}
+      }
 
   .item{
     height: 50vh;
   }
-
-  
 
 footer{
     display: flex;
