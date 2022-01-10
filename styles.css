@@ -60,13 +60,19 @@ body {
       height: 5rem;
       width: 5rem;
       border-radius: 50px;
-      border: 2px solid black;
+      border: 2px solid rgb(63, 59, 59);
       cursor: pointer;
+      pointer-events: auto; 
+
+  
+     
       
   }
 
   .musical-button{
  width: 2.3rem;
+ pointer-events: none; 
+
   }
 
   
