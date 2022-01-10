@@ -56,15 +56,20 @@ body {
   /*////////////////////////////////FOOTER */
 
   .circle{
+ 
       height: 5rem;
       width: 5rem;
-      background-color: #dfd7d7;
       border-radius: 50px;
       border: 2px solid black;
       cursor: pointer;
       
   }
 
+  .musical-button{
+ width: 2.3rem;
+  }
+
+  
   .circles-container{
       display: flex;
       flex-direction: row;
