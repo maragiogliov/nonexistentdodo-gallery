@@ -220,7 +220,7 @@ body {
     .circle{
         height: 5rem;
         width: 5rem;
-        background-color: #aaa8a8;
+        background-color: #c0b5cc5b;
         border-radius: 50px;
         pointer-events: auto;
     }
