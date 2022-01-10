@@ -154,15 +154,6 @@ body {
   }
 
  
-
-  /*//////// Modal -03 /*/
-  
- 
-.foto-victor-about{
-  border-radius: 250px;
-  width: 20rem;
-
-}
   .about-description{
     margin-top: 2rem;
     display: flex;
@@ -184,12 +175,12 @@ body {
     .footer-container{
         display: flex;
         flex-direction: row;
-        background-color: rgb(197, 124, 124);
+        background-color: rgb(255, 255, 255);
     }
     .circle{
         height: 8rem;
         width: 8rem;
-        background-color: #aaa8a8;
+        background-color: #ffffff;
         border-radius: 50px;
         pointer-events: auto;
 
@@ -211,16 +202,16 @@ body {
     .footer-container{
         display: flex;
         flex-direction: column;
-        background-color: rgb(211, 211, 211);
+        background-color: rgb(230, 230, 230);
     }
     .circles-container{
         width: 100%;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
     .circle{
         height: 5rem;
         width: 5rem;
-        background-color: #c0b5cc5b;
+        background-color: #ffffff;
         border-radius: 50px;
         pointer-events: auto;
     }
