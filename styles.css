@@ -21,7 +21,7 @@ body {
 
 .header-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ body {
 
   .item{
     height: 50vh;
-    margin-left: 15rem;
+    margin-left: 1rem;
   }
 
   /*////////////////////////////////FOOTER */
@@ -99,11 +99,17 @@ body {
     height: 100%; /* Full height */
     overflow: scroll; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color:rgba(255, 255, 255, 0.342); /* Black w/ opacity */
-  }
+    background-color:rgba(26, 24, 24, 0.589); /* Black w/ opacity */
+  
+
+}
+  
   
   /* Modal Content */
   .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:rgba(255, 255, 255, 0.849) ;
     margin: auto;
     padding: 20px;
@@ -112,6 +118,7 @@ body {
     width: 80%;
     height: 90%;
     overflow: hidden;
+ 
     
   }
   
@@ -121,6 +128,7 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+   
   }
   
   .close:hover,
@@ -130,10 +138,25 @@ body {
     cursor: pointer;
   }
 
-  .modal-02-image-container{
-      width: 80%;
-    border-radius: 50px;
-      
+ 
+
+  /*//////// Modal -03 /*/
+  
+ 
+.foto-victor-about{
+  border-radius: 250px;
+  width: 20rem;
+
+}
+  .about-description{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:rgb(26, 17, 54) ;
+    
   }
   
 
@@ -156,6 +179,15 @@ body {
     }
 }
 
+
+/*////////////////modal animation ////////////*/
+
+
+
+  
+  
+ 
+
 /*////////////////////////////////SECOND BREAKPOINT */
 
 @media (max-width: 768px) {
@@ -175,4 +207,3 @@ body {
         border-radius: 50px;
     }
 }
-

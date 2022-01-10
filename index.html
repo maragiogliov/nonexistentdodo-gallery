@@ -1,72 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>nonexistentdodo gallery</title>
-</head>
-<body>
-
+    
+  </head>
+  <body>
     <header class="header-container"> 
-        <h1>nonexistentdodo gallery</h1>
-
+      <h1>nonexistentdodo gallery</h1>
+      <p id="demo"></p>
     </header>
 
     <main>
-    
-        <div class="container">
-            <img class="item" src="images/somedraws.svg">
-            <img class="item" src="images/helenistica.svg">
-            <img class="item" src="images/lookup.svg">
-            <img class="item" src="images/helloworld.svg">
-            <img class="item" src="images/CV-MARAGIOGLIO-02.svg">
-
-            <img class="item" src="images/dodo.svg">
-            <img class="item" src="images/escarabajo.svg">
-            <img class="item" src="images/barcelona.svg">
-            <img class="item" src="images/elefante.svg">
-            <img class="item" src="images/buho.svg">
-            <img class="item" src="images/abstractflow.svg">
-            <img class="item" src="images/orlando.svg">
-            <img class="item" src="images/bunny.svg">
-            <img class="item" src="images/escarabajoprocess.svg">
-            <img class="item" src="images/catblackout.svg">
-            <!-- <img class="item" src="images/victorshowingart.svg"> -->
-            <img class="item" src="images/pachamama.svg">
-            <img class="item" src="images/sideface.svg">
-            <img class="item" src="images/garlicclove.svg">
-            <img class="item" src="images/figurines.svg">
-            <img class="item" src="images/mask.svg">
-
-
-
-            <img class="item" src="images/Lion.svg">
-            <!-- <img class="item" src="images/elifloating.png"> -->
-            <!-- <img class="item" src="images/someart.png"> -->
-            <img class="item" src="images/hurracaine-face_1.svg">
-            <img class="item" src="images/animalitos.svg">
-            <img class="item" src="images/punkguy.svg">
-            <img class="item" src="images/tattoostencils.svg">
-            <img class="item" src="images/IMG_6415.svg">
-            <img class="item" src="images/avestruz.svg">
-            <img class="item" src="images/oldface.svg">
-            <img class="item" src="images/fishi.svg">
-            <!-- <img class="item" src="images/jirafa-proceso.png"> -->
-            <img class="item" src="images/jirafa.svg">
-            <!-- <img class="item" src="images/victorandlovegrafitti.svg"> -->
-            <img class="item" src="images/manfalling.svg">
-            <img class="item" src="images/Nov-6_-Doc-3-gatito-.svg">
-            <img class="item" src="images/oscar.svg">
-            <img class="item" src="images/alaskahead.svg">
-            <img class="item" src="images/5friends.svg">
-            <img class="item" src="images/abstract01.svg">
-            <img class="item" src="images/krakow-glow.svg">
-            <img class="item" src="images/birdserious.svg">
-            <img class="item" src="images/babushka.svg">
-            
-        </div>
+            <div class="container">
+                <img class="item" src="images/somedraws.svg">
+                <img class="item" src="images/helenistica.svg">
+                <img class="item" src="images/lookup.svg">
+                <img class="item" src="images/helloworld.svg">
+                <img class="item" src="images/dodo.svg">
+                <img class="item" src="images/escarabajo.svg">
+                <img class="item" src="images/barcelona.svg">
+                <img class="item" src="images/elefante.svg">
+                <img class="item" src="images/buho.svg">
+                <img class="item" src="images/abstractflow.svg">
+                <img class="item" src="images/orlando.svg">
+                <img class="item" src="images/bunny.svg">
+                <img class="item" src="images/escarabajoprocess.svg">
+                <img class="item" src="images/catblackout.svg">
+                <img class="item" src="images/pachamama.svg">
+                <img class="item" src="images/sideface.svg">
+                <img class="item" src="images/garlicclove.svg">
+                <img class="item" src="images/figurines.svg">
+                <img class="item" src="images/mask.svg">
+                <img class="item" src="images/Lion.svg">
+                <img class="item" src="images/hurracaine-face_1.svg">
+                <img class="item" src="images/animalitos.svg">
+                <img class="item" src="images/punkguy.svg">
+                <img class="item" src="images/tattoostencils.svg">
+                <img class="item" src="images/IMG_6415.svg">
+                <img class="item" src="images/avestruz.svg">
+                <img class="item" src="images/oldface.svg">
+                <img class="item" src="images/fishi.svg">
+                <img class="item" src="images/jirafa.svg">
+                <img class="item" src="images/manfalling.svg">
+                <img class="item" src="images/Nov-6_-Doc-3-gatito-.svg">
+                <img class="item" src="images/oscar.svg">
+                <img class="item" src="images/alaskahead.svg">
+                <img class="item" src="images/5friends.svg">
+                <img class="item" src="images/abstract01.svg">
+                <img class="item" src="images/krakow-glow.svg">
+                <img class="item" src="images/birdserious.svg">
+                <img class="item" src="images/babushka.svg">
+                
+            </div>
     </main>
 
     <footer class="footer-container"> 
@@ -95,7 +84,7 @@
                               console.log('sound ' + currentSound.get('') + 'began to play');
                             });
                           });
-                          // get current level of volume
+                            // get current level of volume
                           widget.getVolume(function(volume) {
                             console.log('current volume value is ' + volume);
                           });
@@ -130,8 +119,13 @@
             <!-- Modal content -->
                   <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h1>Hello from About </h1>
-              
+                    <div class="image-container-about">
+                    </div>
+
+                   
+                    <p class="about-description">
+                        Hello my name is Victor, Junior Web Developer with a background in Architectural Design. I live in Berlin, Germany. Rised and born in Merida, Venezuela.
+                    </p>
                   </div>
             
             </div>
@@ -149,14 +143,15 @@
             
             </div>
             
-            
-            
         </div>
 
         <h3>Hand Crafted by Victor E Maragioglio V </h3>
-        <p id="demo"></p>
     </footer>
 </body>
+
+
 <script src="jquery-3.5.1.min.js"></script>
 <script src="app.js"></script>
 </html>
+
+ 
