@@ -7,6 +7,12 @@ document.addEventListener('contextmenu',(e)=>{
     e.preventDefault();
 })
 
+/////////////////////////////////// lock rotation
+
+
+
+
+
 ////////////////////////////////////////////// Modal Situation
 
 // Get the button that opens the modal

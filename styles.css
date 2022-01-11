@@ -16,6 +16,23 @@ body {
     overflow: hidden;
 }
 
+/*/////locking the screen /// */
+
+@media (orientation:landscape) {
+    body {
+      
+  
+      -webkit-transform: rotate(-32deg);
+      -moz-transform: rotate(-32deg);
+      -o-transform: rotate(-32deg);
+      -ms-transform: rotate(-32deg);
+      transform: rotate(-32deg);
+    }
+    .footer-container{
+        margin-left: 25rem;
+    }
+  }
+
 /*//////////////////////////////// HEADER */
 
 
