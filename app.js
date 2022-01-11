@@ -3,9 +3,9 @@ const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
 ////////////////////////////////////////// Disable right click
-document.addEventListener('contextmenu',(e)=>{
-    e.preventDefault();
-})
+// document.addEventListener('contextmenu',(e)=>{
+//     e.preventDefault();
+// })
 
 /////////////////////////////////// lock rotation
 
