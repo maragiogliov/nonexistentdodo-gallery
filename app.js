@@ -30,8 +30,10 @@ for (var i = 0; i < btn.length; i++) {
     e.preventDefault();
     modal = document.querySelector(e.target.getAttribute("href"));
     modal.style.display = "block";
+    }
+
  }
-}
+
 
 // When the user clicks on <span> (x), close the modal
 for (var i = 0; i < spans.length; i++) {
