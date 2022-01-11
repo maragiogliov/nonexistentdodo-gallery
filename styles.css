@@ -12,9 +12,8 @@
 }
 
 body {
-
-    
     margin: 1rem;
+    overflow: hidden;
 }
 
 /*//////////////////////////////// HEADER */
