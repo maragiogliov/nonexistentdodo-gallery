@@ -99,10 +99,7 @@ body {
       pointer-events: auto;
       overflow-x: auto;
       
-      
-      
 
-    
       
   }
 
@@ -238,6 +235,16 @@ body {
     width: auto;
 }
 
+.container-contact-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25rem;
+    border-radius: 5px;
+
+    background-color: rgba(200, 200, 200, 0.712);
+}
 
 
 
