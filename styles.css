@@ -29,9 +29,11 @@ body {
     justify-content: space-evenly;
     justify-content: center;
     align-items: center;
-    background-color: rgba(240, 242, 245, 0.746);
+    background-color: rgba(246, 246, 246, 0.884);
     height: 10vh;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.2);
+
  }
 
  /*//////////////////////////////// MAIN */
@@ -43,6 +45,8 @@ body {
     align-items: center;
     overflow-x: auto;
     height: 60vh;
+    
+    
     }
 
     /* .circle:nth-last-of-type(2) {
@@ -64,7 +68,7 @@ body {
       height: 5rem;
       width: 5rem;
       border-radius: 50px;
-      border: 2px solid rgb(85, 85, 85);
+      border: 2px solid rgb(92, 92, 92);
       cursor: pointer;
 
       overflow-x: auto;
@@ -89,10 +93,11 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content:space-around;
+      border-radius: 15px;
      
 
       
-      background-color: rgb(32, 32, 32,0.877);
+      background-color: rgba(246, 246, 246, 0.37);
       /* offset-x | offset-y | blur-radius | spread-radius | color */
       box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.507);
       width: 30%;
@@ -126,7 +131,7 @@ body {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.623); /* Fallback color */
     background-color:transparent; /* Black w/ opacity */
   
 }
@@ -162,7 +167,7 @@ body {
   .content-container{
       display: flex;
       flex-direction: column;
-      background-color: rgb(17, 14, 14);
+      background-color: rgba(17, 14, 14, 0.37);
       padding: 5rem;
       width: 100%;
       font-size: 2rem;
@@ -242,8 +247,9 @@ body {
     justify-content: space-evenly;
     width: 25rem;
     border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.507);
 
-    background-color: rgba(126, 119, 119, 0.26);
 }
 
 
@@ -287,7 +293,7 @@ body {
     }
     .circles-container{
         width: 100%;
-        background-color: rgba(32, 32, 32, 0.884);
+        background-color: rgba(246, 246, 246, 0.884);
     }
     .circle{
         height: 5rem;
