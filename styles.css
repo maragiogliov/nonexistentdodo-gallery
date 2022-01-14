@@ -278,6 +278,21 @@ body {
 
 }
 
+code{
+    
+    font-size: 1.6rem;
+}
+
+.code-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ background-color: rgba(0, 0, 0, 0.76);
+ border-radius: 15px;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}
 
 
 
