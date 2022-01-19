@@ -58,7 +58,35 @@ body {
   .item{
     height: 50vh;
     margin-left: 0rem;
+ 
   }
+
+  .item-PLANAR{
+    height: 50vh;
+    margin-left: 0rem;
+    background-color: #ffffff;
+    filter: invert(85%) sepia(4%) saturate(256%) hue-rotate(201deg) brightness(96%) contrast(92%);
+
+
+}
+
+.item-PLANAR{
+    -webkit-animation: 
+    blur 5s infinite;
+}
+@-webkit-keyframes blur {
+    0%, 100%  { -webkit-filter: blur(0px); }
+    50% { -webkit-filter: blur(50px); }
+  }
+
+   
+  
+ 
+  
+
+
+
+  
 
   /*////////////////////////////////FOOTER */
 
