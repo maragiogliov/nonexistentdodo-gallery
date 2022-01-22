@@ -302,7 +302,7 @@ body {
 
     display: flex;
     flex-direction: row;
- 
+
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
@@ -317,17 +317,24 @@ body {
 
 code{
     
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+}
+
+a{
+margin-left: 60%;
+    color: #23a6d5;
+    ;
 }
 
 .code-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
- background-color: rgba(0, 0, 0, 0.76);
- border-radius: 15px;
+    align-items:baseline;
+    justify-content: space-around;
+ background-color: rgba(0, 0, 0, 0.425);
+ max-width: 400px;
     margin: 2rem;
-    padding: 1rem;
+    padding: 3rem;
     color: white;
 }
 
