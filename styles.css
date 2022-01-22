@@ -116,7 +116,7 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-/*///////////////////////////////////////////////////////////////////////////////////// Modal Content */
+/*///////////////////////////////////////////////////////////////////////////////////// Modal Content General Settings */
   .modal-content {
     display: flex;
     flex-direction: column;
@@ -127,12 +127,30 @@ body {
     height: 100%;
     overflow: scroll;
     color: rgb(230, 230, 230);
-     background: linear-gradient(-45deg, #c72f01, #180f92, #23a6d5, #b5c4c0);
-     background-size: 400% 400%;
+    background: linear-gradient(-45deg, #c72f01, #180f92, #1d1ac06e, #c8dad6);
+    background-size: 400% 400%;
     }
+    /*///////////////////////////////////////////////////////////////////////////////////// Modals */
+    
+    /*///////////////////////////////////////// The Close Button */
+      .close {
+        margin-left: 90%;
+        color: #4f18d1;
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+       transition: 0.4s;
+        border:0px solid white;
+        color:rgba(122, 224, 215);
+        text-decoration: none;
+        cursor: pointer;
+      }
+    /*///////////////////////////////////////////////////////////  about*/
 
-
-  .content-container{
+  .about-container{
       display: flex;
       flex-direction: row; 
       justify-content: center;
@@ -143,25 +161,7 @@ body {
       font-size: 2rem;
   }
 
-  /* The Close Button */
-  .close {
-    margin-left: 90%;
-    color: #aaaaaa;
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
-
-   
-  }
   
-  .close:hover,
-  .close:focus {
-   transition: 0.4s;
-    border:0px solid white;
-    color:rgba(122, 224, 215);
-    text-decoration: none;
-    cursor: pointer;
-  }
 
  
 
