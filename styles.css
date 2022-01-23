@@ -166,8 +166,8 @@ body {
 
   .about-photo{
       display: flex;
-   
-    height: 25rem
+    height: 25rem;
+    border-radius: 400px;
   }
 
   .about-photo-gallery{
