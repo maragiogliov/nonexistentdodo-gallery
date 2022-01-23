@@ -160,7 +160,7 @@ body {
     text-align: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.63);
- 
+
     margin: 2rem;
     padding: 3rem;
     color: white;
@@ -170,6 +170,7 @@ body {
 margin-left: 10%;
 margin-right: 10%;
       width: 80%;
+   
   }
 
   .about-photo-gallery{
@@ -177,8 +178,12 @@ margin-right: 10%;
     flex-direction: row;
     overflow: scroll;
     align-items: center;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    overflow:scroll;
+    overflow-y: hidden;
+    
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      
   }
 
 
