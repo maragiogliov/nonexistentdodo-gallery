@@ -160,6 +160,7 @@ body {
     text-align: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.63);
+    min-width: 600px;
     max-width: 600px;
     margin: 2rem;
     padding: 3rem;
@@ -167,9 +168,20 @@ body {
   }
 
   .about-photo{
-      mask-image: radial-gradient(55555);
-      width: 80%;
+
+      width: 100%;
   }
+
+  .about-photo-gallery{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    align-items: center;
+    overflow-x:hidden;
+    overflow-y:hidden;
+  }
+
+
 
 .container-contact-buttons{
     display: flex;
