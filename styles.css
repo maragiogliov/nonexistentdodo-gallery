@@ -130,17 +130,21 @@ body {
     color: rgb(230, 230, 230);
     background-color: rgb(0, 0, 0);
     background-size: 400% 400%;
+    padding: 2rem;
+    
     }
     /*///////////////////////////////////////////////////////////////////////////////////// Modals */
     
     /*///////////////////////////////////////// The Close Button */
 
       .close {
-        margin-left: 90%;
+  
         color: #4f18d1;
-        float: right;
-        font-size: 40px;
+       
+        font-size: 100px;
+        position:static;
         font-weight: bold;
+        
       }
       .close:hover,
       .close:focus {
@@ -165,7 +169,7 @@ body {
   }
 
   .about-photo{
-      display: flex;
+    display: flex;
     height: 25rem;
     border-radius: 400px;
   }
