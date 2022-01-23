@@ -156,13 +156,19 @@ body {
   .about-container{
     display: flex;
     flex-direction: column;
-    align-items:baseline;
-    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.63);
     max-width: 600px;
     margin: 2rem;
     padding: 3rem;
     color: white;
+  }
+
+  .about-photo{
+      mask-image: radial-gradient(55555);
+      width: 80%;
   }
 
 .container-contact-buttons{
