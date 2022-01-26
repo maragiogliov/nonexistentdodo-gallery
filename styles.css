@@ -45,15 +45,9 @@ body {
 
   .item{
     height: 50vh;
-    transform: translate3d(0, 0, 0);
     
   }
- 
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-50.6666%);  
-    }
-  }
+
 
   /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  VARIABLES */
 
