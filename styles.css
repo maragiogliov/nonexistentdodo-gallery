@@ -44,7 +44,7 @@ body {
 
   .item{
     height: 50vh;
-    animation: moveSlideshow 18s linear infinite;
+    animation: moveSlideshow 30s linear infinite;
   }
   @keyframes moveSlideshow {
     100% { 
@@ -61,7 +61,7 @@ body {
       height: 50vh;
       margin-left: 0rem;
       background-color: #ffffff;
-      animation: moveSlideshow-right 18s linear infinite;
+      animation: moveSlideshow-right 30s linear infinite;
     }
     @keyframes moveSlideshow-right {
         100% { 
