@@ -38,14 +38,17 @@ body {
     align-items: center;
     overflow-x: auto;
     height: 60vh;
+    transform: translate3d(0, 0, 0);
     }
 
    
 
   .item{
     height: 50vh;
-    animation: moveSlideshow 30s linear infinite;
+    transform: translate3d(0, 0, 0);
+    
   }
+ 
   @keyframes moveSlideshow {
     100% { 
       transform: translateX(-50.6666%);  
@@ -61,13 +64,9 @@ body {
       height: 50vh;
       margin-left: 0rem;
       background-color: #ffffff;
-      animation: moveSlideshow-right 30s linear infinite;
+
     }
-    @keyframes moveSlideshow-right {
-        100% { 
-          transform: translateX(50.6666%);  
-        }
-         }
+   
 
     /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  FOOTER / NAVIGATION */
     
