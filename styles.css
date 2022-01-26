@@ -44,24 +44,30 @@ body {
 
   .item{
     height: 50vh;
-    animation: moveSlideshow 25s linear infinite;
+    animation: moveSlideshow 18s linear infinite;
   }
   @keyframes moveSlideshow {
     100% { 
-      transform: translateX(-66.6666%);  
+      transform: translateX(-50.6666%);  
     }
   }
 
   /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  VARIABLES */
 
   .item-PLANAR{
+      margin-left: 15rem;
       border: black 2px solid;
       padding: 5rem;
       height: 50vh;
       margin-left: 0rem;
       background-color: #ffffff;
-      filter: invert(85%) sepia(4%) saturate(256%) hue-rotate(201deg) brightness(96%) contrast(92%);
+      animation: moveSlideshow-right 18s linear infinite;
     }
+    @keyframes moveSlideshow-right {
+        100% { 
+          transform: translateX(50.6666%);  
+        }
+         }
 
     /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  FOOTER / NAVIGATION */
     
