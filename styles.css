@@ -235,7 +235,7 @@ a{
 
 /* ///////////////////////////////////////////////////////////////////////////////// PH ///////////////// */
 
-.tech-slideshow {
+/* .tech-slideshow {
     height: 200px;
     max-width: 800px;
     margin: 0 auto;
@@ -244,9 +244,10 @@ a{
     transform: translate3d(0, 0, 0);
     border-radius: 400px;
    
-  }
+  } */
   
   .tech-slideshow > div {
+    z-index: 1;
     height: 200px;
     width: 2403px;
     background: url(./images/tira-roma.png);
@@ -255,18 +256,18 @@ a{
     left: 0;
     height: 100%;
     padding: 21rem;
-    transform: translate3d(0, 0, 0);
+
   }
   .tech-slideshow .mover-1 {
-    animation: moveSlideshow 60s linear  infinite;
+    animation: moveSlideshow 15s linear  infinite;
   }
   .tech-slideshow .mover-2 {
-    animation: moveSlideshow 45s linear  infinite;
+    animation: moveSlideshow 0s linear  infinite;
   }
 
   @keyframes moveSlideshow {
     100% { 
-      transform: translateX(-66.6666%);  
+      transform: translateX(66.6666%);  
     }
   }
   
