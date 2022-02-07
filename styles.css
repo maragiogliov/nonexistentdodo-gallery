@@ -233,6 +233,49 @@ a{
     width: 3.2rem;
 }
 
+/* ///////////////////////////////////////////////////////////////////////////////// PH ///////////////// */
+
+.tech-slideshow {
+    height: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    border-radius: 400px;
+   
+  }
+  
+  .tech-slideshow > div {
+    height: 200px;
+    width: 2403px;
+    background: url(./images/tira-roma.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 21rem;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 60s linear  infinite;
+  }
+  .tech-slideshow .mover-2 {
+    animation: moveSlideshow 45s linear  infinite;
+  }
+
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+  
+  @keyframes moveSlideshow-slow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+
 /*//////////////////////////////////////////////////////////////////////////////////////FIRST BREAKPOINT //////////////////////////////////////////////////////// */
 
 @media (min-width: 768px) {
