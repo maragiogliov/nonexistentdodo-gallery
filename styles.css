@@ -133,7 +133,7 @@ body {
     margin: auto;
     border: 3px solid rgb(255, 255, 255);
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
     color: rgb(230, 230, 230);
     background-color: rgb(0, 0, 0);
     background-size: 400% 400%;
@@ -261,17 +261,17 @@ a{
     animation: moveSlideshow 0s linear  infinite;
   }
 
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66%);  
+    /* @keyframes moveSlideshow {
+      100% { 
+        transform: translateX(-66%);  
+      }
     }
-  }
-  
-  @keyframes moveSlideshow-slow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
+    
+    @keyframes moveSlideshow-slow {
+      100% { 
+        transform: translateX(-66.6666%);  
+      }
+    } */
 
 /*//////////////////////////////////////////////////////////////////////////////////////FIRST BREAKPOINT //////////////////////////////////////////////////////// */
 
