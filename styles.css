@@ -203,7 +203,8 @@ body {
     background-color: #555;
   }
   
-  .content {
+  .contenido {
+    color: #4f18d1;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;

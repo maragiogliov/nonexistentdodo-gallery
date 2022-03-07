@@ -85,12 +85,12 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    var contenido = this.nextElementSibling;
     
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+    if (contenido.style.maxHeight){
+      contenido.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      contenido.style.maxHeight = contenido.scrollHeight + "px";
     } 
   });
 }
