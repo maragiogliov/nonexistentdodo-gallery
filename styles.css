@@ -213,7 +213,17 @@ body {
   }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////  about ends */
-
+.aboutclose-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-end;
+  height: 5rem;
+  width: 90%;
+position:sticky;
+  background-color: #0097cec2;
+  
+}
 .container-contact-buttons{
     display: flex;
     flex-direction: row;
