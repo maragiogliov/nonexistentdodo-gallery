@@ -77,7 +77,7 @@ var SC="object"==typeof SC?SC:{};SC.Widget=function(e){var t={};function n(r){if
                         });
         
                       }());
-                      
+
  //////////////////////////////// Collapsible ////////////////////////////////////                     
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -86,6 +86,7 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
+    
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
