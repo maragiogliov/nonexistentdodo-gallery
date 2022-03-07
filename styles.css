@@ -112,7 +112,7 @@ body {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: scroll; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.623); /* Fallback color */
+    background-color: rgba(153, 153, 153, 0.623); /* Fallback color */
     background-color:transparent; /* Black w/ opacity */
 }
 
@@ -135,9 +135,9 @@ body {
     width: 100%;
     overflow: scroll;
     color: rgb(230, 230, 230);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(75, 62, 62);
     background-size: 400% 400%;
-    padding: 2rem;
+   
     
     }
     /*///////////////////////////////////////////////////////////////////////////////////// Modals */
@@ -219,7 +219,7 @@ body {
   align-items: center;
   justify-content:flex-end;
   height: 5rem;
-  width: 90%;
+  width: 100%;
 position:sticky;
   background-color: #0097cec2;
   
