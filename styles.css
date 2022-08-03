@@ -20,7 +20,7 @@ body {
 
 .header-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     justify-content: center;
     align-items: center;
