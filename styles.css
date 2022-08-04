@@ -13,7 +13,7 @@
 
 body {
     margin: 1rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////// HEADER */
@@ -21,8 +21,7 @@ body {
 .header-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     background-color: rgba(246, 246, 246, 0.884);
     height: 10vh;
@@ -292,6 +291,8 @@ a{
     animation: moveSlideshow 0s linear  infinite;
   }
 
+
+
     /* @keyframes moveSlideshow {
       100% { 
         transform: translateX(-66%);  
@@ -305,6 +306,14 @@ a{
     } */
 
 /*//////////////////////////////////////////////////////////////////////////////////////FIRST BREAKPOINT //////////////////////////////////////////////////////// */
+ .caja{
+  color:#0097cec2;
+  background-color: #4f18d1;
+  height: 50rem;
+ }
+
+
+
 
 @media (min-width: 768px) {
     .footer-container{
