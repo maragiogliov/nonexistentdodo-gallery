@@ -51,6 +51,19 @@
     </SideNavItems>
   </SideNav>
 
-<slot></slot>
+  <Content class="grid">
+    <Grid >
+      <slot></slot>
+    
+    </Grid>
+  </Content>
 
+
+
+<style>
+  :global(.grid){
+    background-color: rgb(255, 255, 255);
+    margin-left: 4rem;
+  }
+</style>
 
