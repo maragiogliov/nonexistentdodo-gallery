@@ -1,12 +1,15 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from 'svelte-adapter-github';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
 	kit: {
 		adapter: adapter({
-			fallback: '200.html'
+			// default options are shown
+			pages: 'docs',
+			assets: 'docs',
+			domain: null,
+			jekyll: false,
+			fallback: null,
+			precompress: false
 		})
 	}
 };
-
-export default config;
