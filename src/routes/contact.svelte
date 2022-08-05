@@ -73,9 +73,3 @@
 
 
 
-
-<style>
-    body{
-        color:blue;
-    }
-</style>

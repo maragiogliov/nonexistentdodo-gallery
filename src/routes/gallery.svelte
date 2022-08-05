@@ -1,5 +1,4 @@
 <script>
-
     import { Column, Grid, Row } from "carbon-components-svelte";
     let img = 'src/images/5friends.svg';
     let img1 = 'src/images/055555.svg';
@@ -16,7 +15,6 @@
     let img12='src/images/babushka.svg'
     let img13='src/images/balance.svg'
     let img14='src/images/bunny.svg'
-
     let img15='src/images/barcelona.svg'
     let img16='src/images/barcosplash.svg'
     let img17='src/images/bicboy.svg'
@@ -27,20 +25,10 @@
     let img22='src/images/cara_2.svg'
     let img23='src/images/caradealloro.svg'
     let img24='src/images/catblackout.svg'
-    let img25='src/images/cara_2.svg'
+    let img25='src/images/circlecirlce.svg'
     let img26='src/images/cara_2.svg'
     let img27='src/images/cara_2.svg'
-    
-
-
-  
-  
-
-
-
 </script>
-
-
 
 <Grid>
     <Row>
