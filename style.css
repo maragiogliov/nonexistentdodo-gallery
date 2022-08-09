@@ -21,13 +21,13 @@ canvas {
 }
 
 main {
-  width: 100vw;
+  width: 90vw;
   color: white;
   z-index: 99;
   position: absolute;
   width: 100vw;
   margin: 0px auto;
-  padding: 200px 0px;
+  padding: 200px 0px 0px;
   
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -53,35 +53,59 @@ canvas {
     grid-column: 1 / span 4;
     font-size: 2.5rem;
     padding: 1rem;
-    margin-bottom: var(--spacing);
+    /* margin-bottom: var(--spacing); */
+    border-radius: 10%;
+
   }
 
   section {
-    grid-column: 1 / 12;
+
+    grid-column: 2 / 8;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    border-radius: 10%;
+
+
   }
 
   blockquote {
     margin: 0;
-    grid-column: 1/ span 8;
-    margin-bottom: var(--spacing);
+    grid-column: 2/ span 6;
+    /* margin-bottom: var(--spacing); */
   }
 
   blockquote p {
-    color: black;
+    color: rgba(0, 0, 0, 0.671);
     background-color: rgba(255, 255, 255, 0.521);
-    font-size: 4rem;
+    font-size: 3rem;
+    font-family:monospace;
+    border-radius: 10%;
+
    
     line-height: 1;
     padding: 1rem;
   }
-
+.manifesto-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
   .left {
-    grid-column: 1 / 8;
+    grid-column: 2 / 8;
+  }
+
+  .light{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2 / 12;
+    height: 100vh;
+
   }
 
   @media only screen and (max-width: 950px) {
@@ -90,7 +114,7 @@ canvas {
       grid-column: 2 / span 8;
       font-size: 1.2rem;
       padding: 1rem;
-      margin-bottom: var(--spacing);
+      /* margin-bottom: var(--spacing); */
       border-radius: 10%;
     }
   
