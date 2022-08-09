@@ -11,27 +11,30 @@ canvas {
   --dark-bg: rgba(15, 15, 15, 0.459);
   --spacing: 350px;
 
-  font-family: brandon-grotesque, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   font-weight: 400;
   font-style: normal;
 }
-
+.body{
+  width: 2rem;
+  margin: 300rem;
+}
 
 main {
   width: 100vw;
   color: white;
   z-index: 99;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   margin: 0px auto;
-  padding: 120px 0px;
+  padding: 200px 0px;
   
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
 h1, h2, h3, blockquote {
-  font-family: elevon, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -40,20 +43,21 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
+
 }
 
 
 
   header {
     background: var(--dark-bg);
-    grid-column: 2 / span 5;
+    grid-column: 1 / span 4;
     font-size: 2.5rem;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: var(--spacing);
   }
 
   section {
-    grid-column: 2 / 8;
+    grid-column: 1 / 12;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
@@ -63,19 +67,31 @@ canvas {
 
   blockquote {
     margin: 0;
-    padding: 0;
-    grid-column: 2 / span 9;
+    grid-column: 1/ span 8;
     margin-bottom: var(--spacing);
   }
 
   blockquote p {
     color: black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.521);
     font-size: 4rem;
-    display: inline;
+   
     line-height: 1;
+    padding: 1rem;
   }
 
   .left {
-    grid-column: 6 / 12;
+    grid-column: 1 / 8;
+  }
+
+  @media only screen and (max-width: 950px) {
+    header {
+      background: var(--dark-bg);
+      grid-column: 2 / span 8;
+      font-size: 1.2rem;
+      padding: 1rem;
+      margin-bottom: var(--spacing);
+      border-radius: 10%;
+    }
+  
   }
