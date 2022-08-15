@@ -110,6 +110,8 @@ canvas {
 
 
 
+
+
   @media only screen and (max-width: 900px) {
     .cv img{
 
@@ -123,4 +125,14 @@ canvas {
       height: 40vh;
       
     }
+
+ }
+
+ @media only screen and (max-width: 1000px) {
+  .project-card img{
+    width: 60vw;
+   
+    
   }
+
+}
