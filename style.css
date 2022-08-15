@@ -31,7 +31,7 @@ main {
   grid-template-columns: repeat(12, 1fr);
 }
 
-h1, h2, h3, blockquote {
+h1, h2, h3,h5, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
