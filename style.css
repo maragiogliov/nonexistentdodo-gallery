@@ -8,33 +8,30 @@ canvas {
 
 
 :root {
-  --dark-bg: rgba(15, 15, 15, 0.459);
+  --dark-bg: #79a3ff3f;
   --spacing: 350px;
 
-  font-family:'Courier New', Courier, monospace;
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.body{
-  width: 2rem;
-  margin: 300rem;
-}
+
 
 main {
-  width: 90vw;
-  color: white;
+  width: 100vw;
+  color: #ffffff;
   z-index: 99;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   margin: 0px auto;
-  padding: 200px 0px 0px;
+  padding: 120px 0px;
   
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
 h1, h2, h3, blockquote {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -43,79 +40,51 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-
 }
 
 
 
   header {
     background: var(--dark-bg);
-    grid-column: 1 / span 4;
+    grid-column: 2 / span 5;
     font-size: 2.5rem;
-    padding: 1rem;
-    /* margin-bottom: var(--spacing); */
-    border-radius: 10%;
-
+    padding: 2rem;
+    margin-bottom: var(--spacing);
   }
 
   section {
-
     grid-column: 2 / 8;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
-    border-radius: 10%;
-
-
   }
 
   blockquote {
     margin: 0;
-    grid-column: 2/ span 6;
-    /* margin-bottom: var(--spacing); */
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
   }
 
   blockquote p {
-    color: rgba(0, 0, 0, 0.671);
-    background-color: rgba(255, 255, 255, 0.521);
-    font-size: 3rem;
-    font-family:monospace;
-    border-radius: 10%;
-
-   
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    display: inline;
     line-height: 1;
-    padding: 1rem;
   }
-.manifesto-section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
   .left {
-    grid-column: 2 / 8;
+    grid-column: 6 / 12;
   }
 
-  .light{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    grid-column: 2 / 12;
-    height: 100vh;
 
-  }
 
-  @media only screen and (max-width: 950px) {
-    header {
-      background: var(--dark-bg);
-      grid-column: 2 / span 8;
-      font-size: 1.2rem;
-      padding: 1rem;
-      /* margin-bottom: var(--spacing); */
-      border-radius: 10%;
+  @media only screen and (max-width: 900px) {
+    .cv img{
+
+      width: 90vw;
     }
-  
   }
