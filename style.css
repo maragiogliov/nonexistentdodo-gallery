@@ -81,7 +81,7 @@ canvas {
   }
 
   .left {
-    grid-column: 6 / 12;
+    grid-column: 2 / 12;
   }
 
   .light{
@@ -90,9 +90,8 @@ canvas {
     align-items:center;
     justify-content: space-around;
     height: 30vw;
-    min-width: 50vw;
     overflow: scroll ;
-   margin-left: 2rem;
+ 
 
   }
 
@@ -102,7 +101,9 @@ canvas {
     align-items: center;
     justify-content: center;
     min-width: 50%;
-    margin-right: 2rem;
+    margin-left: 1rem;
+ 
+    
     height: 80%;
     color: black;
     background-color: rgba(240, 248, 255, 0.479);
@@ -121,8 +122,11 @@ canvas {
 
   @media only screen and (max-width: 1000px) {
     .light{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       width: 100vw;
-      height: 40vh;
+      height: 80vh;
       
     }
 
@@ -130,7 +134,10 @@ canvas {
 
  @media only screen and (max-width: 1000px) {
   .project-card img{
-    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
    
     
   }
