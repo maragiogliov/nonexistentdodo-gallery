@@ -86,37 +86,52 @@ canvas {
 
   .light{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     justify-content: space-around;
     height: 30vw;
     overflow: scroll ;
+    grid-column: 2 / 12;
+    background-color: rgba(0, 255, 106, 0.986);
+    position:relative;
+
  
 
   }
+
+
+
+
 
   .project-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 50%;
-    margin-left: 1rem;
- 
-    
+    min-width: 70%;
+  
+
     height: 80%;
     color: black;
     background-color: rgba(240, 248, 255, 0.479);
   }
+/* GALLERY */
 
-
+/* GALLERY */
 
 
 
   @media only screen and (max-width: 900px) {
+    header{
+      grid-column: 1 / span 5;
+
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
     .cv img{
 
-      width: 90vw;
+      width: 86vw;
     }
   }
 
@@ -127,11 +142,20 @@ canvas {
       align-items: center;
       width: 100vw;
       height: 80vh;
+      grid-column: 1 / 12;
+
       
     }
 
  }
-
+ @media only screen and (max-width: 1000px) {
+  .project-card {
+  
+    width: 10vw;
+   
+    
+  }
+   }
  @media only screen and (max-width: 1000px) {
   .project-card img{
     display: flex;
@@ -146,7 +170,7 @@ canvas {
 
 @media only screen and (max-width: 1000px) {
   h5{
-   font-size: 1.5rem;
+   font-size: 1.6rem;
    
     
   }
