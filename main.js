@@ -72,12 +72,13 @@ const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicM
 scene.add(jeff);
 
 // Moon
+const materialmoon = new THREE.MeshStandardMaterial({ color: 0x79a3ff3 });
 
-const moonTexture = new THREE.TextureLoader().load('./images/tira-roma.png');
+const moonTexture = new THREE.TextureLoader().load('./images/canvas0004.png');
 const normalTexture = new THREE.TextureLoader().load('normal.jpg');
 
 const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(3, 32, 32),
+  new THREE.SphereGeometry(3, 32, 300),
   new THREE.MeshStandardMaterial({
     map: moonTexture,
     normalMap: normalTexture,
@@ -87,7 +88,7 @@ const moon = new THREE.Mesh(
 scene.add(moon);
 
 moon.position.z = 30;
-moon.position.setX(-10);
+moon.position.setX(-5);
 
 jeff.position.z = -5;
 jeff.position.x = 2;
@@ -97,7 +98,7 @@ jeff.position.x = 2;
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
   moon.rotation.x += 0.05;
-  moon.rotation.y += 0.075;
+  moon.rotation.y += 0.07;
   moon.rotation.z += 0.05;
 
   jeff.rotation.y += 0.01;
