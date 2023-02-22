@@ -117,11 +117,11 @@ moveCamera();
 function animate() {
   requestAnimationFrame(animate);
 
-  torus.rotation.x += 0.01;
+  torus.rotation.x += 0.001;
   torus.rotation.y += 0.005;
-  torus.rotation.z += 0.01;
+  torus.rotation.z += 0.001;
 
-  moon.rotation.x += 0.005;
+  moon.rotation.x += 0.3;
 
   // controls.update();
 
