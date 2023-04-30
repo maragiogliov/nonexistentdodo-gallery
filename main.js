@@ -30,7 +30,7 @@ scene.add(torus);
 // Lights
 
 const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(5, 5, 5);
+pointLight.position.set(5, 225, 5);
 
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
@@ -72,7 +72,7 @@ const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicM
 scene.add(jeff);
 
 // Moon
-const materialmoon = new THREE.MeshStandardMaterial({ color: 0x79a3ff3 });
+const materialmoon = new THREE.MeshStandardMaterial({ color: 0x17c3f34e });
 
 const moonTexture = new THREE.TextureLoader().load('./images/canvas0004.png');
 const normalTexture = new THREE.TextureLoader().load('normal.jpg');
@@ -97,9 +97,9 @@ jeff.position.x = 2;
 
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
-  moon.rotation.x += 0.05;
-  moon.rotation.y += 0.07;
-  moon.rotation.z += 0.05;
+  moon.rotation.x += 0.005;
+  moon.rotation.y += 0.007;
+  moon.rotation.z += 0.005;
 
   jeff.rotation.y += 0.01;
   jeff.rotation.z += 0.01;
@@ -130,20 +130,5 @@ function animate() {
 
 animate();
 
-// NAV
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-});
-
-document.querySelectorAll(".nav-link").forEach((link) =>
-  link.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  })
-);
 
