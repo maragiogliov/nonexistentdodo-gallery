@@ -1,8 +1,12 @@
 
-
+*{
+margin: 0;
+padding: 0;
+}
 :root {
-padding: 2rem;
-  background-color: rgba(184, 184, 184, 0.307);
+padding: 0;
+margin: 0;
+background-color: rgba(184, 184, 184, 0.307);
 
 }
 
@@ -27,6 +31,7 @@ body{
 
 img{
   height: 100vh;
+  border: 2px solid green;
 }
 
 
